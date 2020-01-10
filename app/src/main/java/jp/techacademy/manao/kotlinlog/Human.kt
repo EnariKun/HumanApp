@@ -11,7 +11,7 @@ open class Human: Animal, Thinkable{
 
     // Animalクラスのメソッドをオーバーライド
     override fun say() {
-        Log.d("kotlintest", "名前は" + this.name + "です。年は" + this.age + "です。")
+        Log.d("kotlintest", "私の名前は" + this.name + "です。年は" + this.age + "です。")
     }
 
     // Thinkableインタフェースのメソッドをオーバーライド
